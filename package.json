@@ -41,7 +41,7 @@
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
     "@types/jest": "^26.0.23",
-    "@types/react-native": "^0.69.0",
+    "@types/react-native": "^0.69.1",
     "@types/react-navigation": "^2.13.10",
     "@types/react-test-renderer": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
