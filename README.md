@@ -19,7 +19,6 @@
 │   ├── images                 图片
 │   ├── kit                    工具
 │   ├── pages                  页面目录
-│   │   ├── selling-list       榜单
 │   │   └── test-page          测试
 │   ├── store
 │   ├── index.tsx
@@ -50,10 +49,6 @@ npm run android
 npm run ios
 ```
 
-# 问题
-1、[Typedef redefinition with different types ('uint8_t' (aka 'unsigned char') vs 'enum clockid_t'](https://github.com/facebook/flipper/issues/834)
-2、[xcode13.3 Typedef redefinition with different types ('uint8_t' (aka 'unsigned char') vs 'enum clockid_t'](https://github.com/facebook/react-native/issues/31480)
-
 # 打包
 ```bash
 npm run build
@@ -62,10 +57,4 @@ npm run build
 # 配置规则
 1、设置页面: https://com.aries.com?pageCode=rn&bundleName=app&initRouteName=UserSetting
 - 参数说明: bundleName(为后期多bundle留标识)
-
-## 图片上传地址 (图片名称要加时间戳，重名会被覆盖)
-- [pre地址](http://ossppre.cnsuning.com/snoss-web/web/index.html#/bucketDetail/attribute/sffe/sffe/9I84291O113FAJOA/2AzZvNLwv4k5nx0oaaa3VkPdnZM=/1)
-- [prd地址](http://osspprd1.cnsuning.com/snoss-web/web/index.html#/bucketDetail/attribute/sffe/sffe/MZACL9NM2BKC0OLZ/8OZku7KVWjA__Ycl9bMqMlgCwkc=/1)
-
-
 
