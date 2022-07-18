@@ -1,12 +1,12 @@
 import React from 'react'
 import { ScrollView, StyleSheet, View, Text, TouchableOpacity } from 'react-native'
 import { NavigationInjectedProps } from 'react-navigation'
+import { getBottomSpace } from 'react-native-iphone-x-helper'
 import { Scene, FastImg } from '@comps'
 import { default_goods_img, arrowRight } from '@img'
 import { isIOS, px2Dp } from '@kit'
 
 import SettingItem from '@pages/user-settting/components/item'
-import { getBottomSpace } from 'react-native-iphone-x-helper'
 
 const UserSetting = (props: NavigationInjectedProps) => {
   const { navigation } = props

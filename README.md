@@ -1,5 +1,5 @@
 # 前言
-该工程为android_mall的react-native子页面工程，基于0.69.0版本
+该工程为android_mall的react-native子页面工程，基于0.69.1版本
 - 我的设置
 
 # 用户设置
